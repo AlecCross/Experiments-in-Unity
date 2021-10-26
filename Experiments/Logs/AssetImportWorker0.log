@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 8189 MB
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 8189 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\2020.3.0f1\Editor\Unity.exe
+C:\Program Files\Unity\2020.3.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,14 +15,14 @@ C:/UnityProgects/Experiments-in-Unity/Experiments
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58180
+49769
 Successfully changed project path to: C:/UnityProgects/Experiments-in-Unity/Experiments
 C:/UnityProgects/Experiments-in-Unity/Experiments
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 67.98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.0f1 (c7b5465681fb)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/UnityProgects/Experiments-in-Unity/Experiments/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
@@ -32,188 +32,117 @@ Direct3D:
     VRAM:     1003 MB
     Driver:   27.20.14535.1000
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/2020.3.0f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Mono path[0] = 'C:/Program Files/Unity/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003450 seconds.
+Register platform support module: C:/Program Files/Unity/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004876 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.51 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 69.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.877 seconds
+- Completed reload, in  5.703 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001100 seconds.
+Registered in 0.002495 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.568 seconds
+- Completed reload, in  2.910 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.9 MB.
-System memory in use after: 56.9 MB.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.2 MB.
+System memory in use after: 57.3 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
-Total: 3.212900 ms (FindLiveObjects: 0.354500 ms CreateObjectMapping: 0.069200 ms MarkObjects: 2.667300 ms  DeleteObjects: 0.119800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42baae205c97e3337697759514652acd') in 0.015084 seconds
-  Import took 0.018926 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 3.875900 ms (FindLiveObjects: 0.497000 ms CreateObjectMapping: 0.136100 ms MarkObjects: 3.117200 ms  DeleteObjects: 0.123600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001015 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(f8a1e89602abc6d44a77e3d03a80a83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(f8a1e89602abc6d44a77e3d03a80a83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2c06509c62c61b2c28db1413cc4630') in 0.011666 seconds
-  Import took 0.015180 seconds .
+  path: Assets/Scenes/CameraViewInTV.unity
+  artifactKey: Guid(512452bbed747524798eb00475fdb026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CameraViewInTV.unity using Guid(512452bbed747524798eb00475fdb026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58184b2d798cc3ebc061a1c3a3eb4d6') in 0.058940 seconds
+  Import took 0.064377 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.443982 seconds.
-  path: Assets/Models
-  artifactKey: Guid(f5f4e620770bb554696b68e2b4defb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(f5f4e620770bb554696b68e2b4defb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016fe788239a41dc888b4b57a23bc6c3') in 0.013714 seconds
-  Import took 0.017489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.658697 seconds.
-  path: Assets/Models/tesla-satelit
-  artifactKey: Guid(11e0b041c1c32a841825fa7cf212084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/tesla-satelit using Guid(11e0b041c1c32a841825fa7cf212084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c1edb18086dac4938a46b916a31564') in 0.016122 seconds
-  Import took 0.024593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000565 seconds.
-  path: Assets/Models/tesla-satelit
-  artifactKey: Guid(11e0b041c1c32a841825fa7cf212084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/tesla-satelit using Guid(11e0b041c1c32a841825fa7cf212084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c1edb18086dac4938a46b916a31564') in 0.009719 seconds
-  Import took 0.013583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.366430 seconds.
-  path: Assets/Models/tesla-satelit/source
-  artifactKey: Guid(0ee71a18e0183a248aec4b1a40d0d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/tesla-satelit/source using Guid(0ee71a18e0183a248aec4b1a40d0d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4952abffa680600c974fd6b52b55001f') in 0.015729 seconds
-  Import took 0.021032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.078785 seconds.
-  path: Assets/Models/tesla-satelit/source/Satelit_S.fbx
-  artifactKey: Guid(eefabbce3aa6c9c4f8c32dc5215ad85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/tesla-satelit/source/Satelit_S.fbx using Guid(eefabbce3aa6c9c4f8c32dc5215ad85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b985b5f924024bb25dc59afdd99117') in 1.327627 seconds
-  Import took 1.332169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006292 seconds.
-  path: Assets/Models/tesla-satelit/source/Satelit_S.fbx
-  artifactKey: Guid(eefabbce3aa6c9c4f8c32dc5215ad85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/tesla-satelit/source/Satelit_S.fbx using Guid(eefabbce3aa6c9c4f8c32dc5215ad85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b985b5f924024bb25dc59afdd99117') in 0.305310 seconds
-  Import took 0.309553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.356241 seconds.
-  path: Assets/Models/tesla-satelit/textures
-  artifactKey: Guid(0dcc15a981d8f8446881993d2d7e993d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/tesla-satelit/textures using Guid(0dcc15a981d8f8446881993d2d7e993d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c027fd1684b965455e286d989f39793') in 0.012874 seconds
-  Import took 0.016972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.069715 seconds.
-  path: Assets/Models/tesla-satelit/textures/Satelit_TV_tv_BaseColor.png
-  artifactKey: Guid(a4e61d771d077ba4ca115bb1ee4b24ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/tesla-satelit/textures/Satelit_TV_tv_BaseColor.png using Guid(a4e61d771d077ba4ca115bb1ee4b24ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d25e4d1b0a4ac9fc0fa3ce1a43e8d4b') in 0.049936 seconds
-  Import took 0.053153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Models/tesla-satelit/textures/Satelit_TV_tv_Normal.png
-  artifactKey: Guid(7ed6e7bdbf98d4d4982515c3ed8ba197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/tesla-satelit/textures/Satelit_TV_tv_Normal.png using Guid(7ed6e7bdbf98d4d4982515c3ed8ba197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8dbbf589bcc87c495666da2814f06f') in 0.035388 seconds
-  Import took 0.039107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Models/tesla-satelit/textures/Satelit_TV_tv_Metallic.png
-  artifactKey: Guid(0f7fe9add80be9942875692a90eb3d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/tesla-satelit/textures/Satelit_TV_tv_Metallic.png using Guid(0f7fe9add80be9942875692a90eb3d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f077149bd2e313b126e2115d5048ee2b') in 0.029874 seconds
-  Import took 0.033263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Models/tesla-satelit/textures/Satelit_TV_tv_Emmision.png
-  artifactKey: Guid(317838384fe8ef540b16bb808308e6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/tesla-satelit/textures/Satelit_TV_tv_Emmision.png using Guid(317838384fe8ef540b16bb808308e6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ab212a200b20557a7c31b60d76479c') in 0.020270 seconds
-  Import took 0.023252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Models/tesla-satelit/textures/Satelit_TV_tv_Roughness.png
-  artifactKey: Guid(6c6e3cdd1524ac84a98f080fd3c1c263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/tesla-satelit/textures/Satelit_TV_tv_Roughness.png using Guid(6c6e3cdd1524ac84a98f080fd3c1c263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ebcc75345de827f9cf1a6aaa6a135a') in 0.025120 seconds
-  Import took 0.028489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.434337 seconds.
-  path: Assets/Models/tesla-satelit/textures/New Material.mat
-  artifactKey: Guid(9881a938d9636bd409d34f08a6041331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/tesla-satelit/textures/New Material.mat using Guid(9881a938d9636bd409d34f08a6041331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bec4b6d1e99bccdab66b50166d6448') in 0.031712 seconds
-  Import took 0.035453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1329.857436 seconds.
-  path: Assets/Material
-  artifactKey: Guid(b91436611d9780a4184121dd62e3be5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material using Guid(b91436611d9780a4184121dd62e3be5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf26b5dfa5f15e7faaf4cc9edd76051e') in 0.015592 seconds
-  Import took 0.018476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.886197 seconds.
-  path: Assets/Material/New Material.mat
-  artifactKey: Guid(84bf9a8180d586942bc9664f3adcb3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/New Material.mat using Guid(84bf9a8180d586942bc9664f3adcb3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea12726f961dd277747ce19d52149c94') in 0.020452 seconds
-  Import took 0.023898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 101.978605 seconds.
-  path: Assets/New Render Texture.renderTexture
+  Time since last request: 0.000589 seconds.
+  path: Assets/CameraView.renderTexture
   artifactKey: Guid(9b9f658a77bec924589606c580c23f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Render Texture.renderTexture using Guid(9b9f658a77bec924589606c580c23f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6338be256114fbc981a8054007453e7') in 0.032737 seconds
-  Import took 0.035771 seconds .
+Start importing Assets/CameraView.renderTexture using Guid(9b9f658a77bec924589606c580c23f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee379cc9993f3360ae033208cddd3502') in 0.209712 seconds
+  Import took 0.213441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a85b02e247ea2fc3d359a4ac4756d3f') in 0.025065 seconds
+  Import took 0.029118 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.3 MB.
+System memory in use after: 38.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1562.
+Total: 5.953500 ms (FindLiveObjects: 0.377900 ms CreateObjectMapping: 0.093600 ms MarkObjects: 5.333400 ms  DeleteObjects: 0.144700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001804 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.793 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.2 MB.
+System memory in use after: 60.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1565.
+Total: 3.409300 ms (FindLiveObjects: 0.480200 ms CreateObjectMapping: 0.124700 ms MarkObjects: 2.709400 ms  DeleteObjects: 0.092700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.3 MB.
+System memory in use after: 38.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1565.
+Total: 5.054000 ms (FindLiveObjects: 0.351100 ms CreateObjectMapping: 0.068900 ms MarkObjects: 4.531500 ms  DeleteObjects: 0.099800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
